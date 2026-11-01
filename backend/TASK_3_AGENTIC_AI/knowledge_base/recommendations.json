@@ -1,0 +1,97 @@
+{
+  "recommendations": {
+    "pH": {
+      "below_6.5": [
+        "The water is more acidic than the acceptable reference range.",
+        "Avoid using the water for drinking until the cause is investigated.",
+        "Consider testing the water source and checking for possible contamination."
+      ],
+      "6.5_to_8.5": [
+        "The pH is within the acceptable reference range."
+      ],
+      "above_8.5": [
+        "The water is more alkaline than the acceptable reference range.",
+        "Avoid using the water for drinking until the cause is investigated.",
+        "Consider additional water-quality testing."
+      ]
+    },
+    "TDS": {
+      "below_or_equal_500": [
+        "TDS is within the acceptable reference limit."
+      ],
+      "500_to_2000": [
+        "TDS is above the acceptable reference limit.",
+        "The water requires attention and further assessment.",
+        "If possible, use an alternative water source for drinking."
+      ],
+      "above_2000": [
+        "TDS exceeds the permissible reference limit.",
+        "Avoid using the water for drinking until it is properly assessed or treated.",
+        "Consider testing the water source to identify the cause of high dissolved solids."
+      ]
+    },
+    "turbidity": {
+      "below_or_equal_1": [
+        "Turbidity is within the acceptable reference limit."
+      ],
+      "1_to_5": [
+        "Turbidity is above the acceptable reference limit.",
+        "The water should be investigated for suspended particles or other possible causes.",
+        "Consider filtration or further water-quality testing before drinking."
+      ],
+      "above_5": [
+        "Turbidity exceeds the permissible reference limit.",
+        "Avoid using the water for drinking until it is properly assessed or treated.",
+        "Consider filtration and additional water-quality testing."
+      ]
+    },
+    "temperature": {
+      "all_values": [
+        "Temperature is monitored as an input to the deep learning model; temperature alone does not determine drinking-water safety in this project."
+      ]
+    },
+    "overall_status": {
+      "safe": [
+        "All monitored parameters are within this project's configured reference ranges. Continue routine monitoring."
+      ],
+      "warning": [
+        "At least one monitored parameter requires attention. Verify the reading and consider further testing or appropriate treatment before drinking."
+      ],
+      "unsafe": [
+        "One or more monitored parameters are outside the configured permissible limits or the CNN-LSTM model predicts Unsafe. Avoid drinking the water until it has been assessed and appropriate treatment or verification is completed."
+      ],
+      "insufficient_data": [
+        "A reliable overall classification is unavailable because valid sensor or model data are missing. Check the data connection and collect at least 10 valid chronological readings before relying on a model result."
+      ]
+    }
+  },
+  "important_note": "Recommendations are based only on the parameters monitored by this project and the available reference rules. They do not replace complete laboratory testing or professional water-quality assessment.",
+  "selection": {
+    "pH": {
+      "Unsafe": {
+        "below_min_key": "below_6.5",
+        "above_max_key": "above_8.5"
+      },
+      "Safe": "6.5_to_8.5"
+    },
+    "TDS": {
+      "Safe": "below_or_equal_500",
+      "Warning": "500_to_2000",
+      "Unsafe": "above_2000"
+    },
+    "turbidity": {
+      "Safe": "below_or_equal_1",
+      "Warning": "1_to_5",
+      "Unsafe": "above_5"
+    },
+    "temperature": {
+      "all_values": "all_values"
+    },
+    "overall_status": {
+      "Safe": "safe",
+      "Warning": "warning",
+      "Unsafe": "unsafe",
+      "Insufficient data": "insufficient_data"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parameters": {
+    "pH": {
+      "name": "pH",
+      "unit": "pH",
+      "description": "Measures the acidity or alkalinity of water.",
+      "interpretation": {
+        "below_7": "Acidic",
+        "equal_to_7": "Neutral",
+        "above_7": "Alkaline"
+      }
+    },
+
+    "TDS": {
+      "name": "Total Dissolved Solids",
+      "unit": "mg/L",
+      "description": "Represents the amount of dissolved substances present in water.",
+      "interpretation": {
+        "low": "Lower concentration of dissolved substances.",
+        "moderate": "Moderate concentration of dissolved substances.",
+        "high": "Higher concentration of dissolved substances."
+      }
+    },
+
+    "turbidity": {
+      "name": "Turbidity",
+      "unit": "NTU",
+      "description": "Indicates the cloudiness of water caused by suspended particles.",
+      "interpretation": {
+        "low": "Water has low cloudiness.",
+        "high": "Water has increased cloudiness due to suspended particles."
+      }
+    },
+
+    "temperature": {
+      "name": "Water Temperature",
+      "unit": "°C",
+      "description": "Represents the measured temperature of the water.",
+      "interpretation": {
+        "low": "Water temperature is relatively low.",
+        "moderate": "Water temperature is within a moderate range.",
+        "high": "Water temperature is relatively high."
+      },
+      "usage": "Used as a monitored parameter and as an input to the deep learning model. No project-specific drinking-water safety threshold is assigned."
+    }
+  }
+}

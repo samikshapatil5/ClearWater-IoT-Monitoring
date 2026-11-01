@@ -1,0 +1,94 @@
+{
+  "nodeId": "WQM-01",
+  "timestamp": "demo",
+  "ph": 7.18,
+  "turbidity": 2.4,
+  "tds": 318,
+  "temperature": 26.4,
+  "condition": "Safe",
+  "confidence": 94.2,
+  "qualityScore": 87,
+  "history": [
+    {
+      "time": "08:00",
+      "ph": 7.12,
+      "turbidity": 2.1,
+      "tds": 304,
+      "temperature": 25.8
+    },
+    {
+      "time": "10:00",
+      "ph": 7.16,
+      "turbidity": 2.2,
+      "tds": 309,
+      "temperature": 26.0
+    },
+    {
+      "time": "12:00",
+      "ph": 7.18,
+      "turbidity": 2.4,
+      "tds": 318,
+      "temperature": 26.4
+    },
+    {
+      "time": "14:00",
+      "ph": 7.21,
+      "turbidity": 2.7,
+      "tds": 321,
+      "temperature": 26.8
+    },
+    {
+      "time": "16:00",
+      "ph": 7.17,
+      "turbidity": 2.3,
+      "tds": 315,
+      "temperature": 26.6
+    },
+    {
+      "time": "18:00",
+      "ph": 7.15,
+      "turbidity": 2.2,
+      "tds": 312,
+      "temperature": 26.2
+    },
+    {
+      "time": "18:30",
+      "ph": 7.18,
+      "turbidity": 2.4,
+      "tds": 318,
+      "temperature": 26.4
+    }
+  ],
+  "wqi": {
+    "value": 34.8,
+    "band": "Good",
+    "method": "Weighted Arithmetic WQI (WAWQI)",
+    "parameters": [
+      "pH",
+      "Turbidity",
+      "TDS"
+    ],
+    "standards": {
+      "pH": 8.5,
+      "turbidity": 5,
+      "tds": 500
+    },
+    "idealValues": {
+      "pH": 7,
+      "turbidity": 0,
+      "tds": 0
+    },
+    "K": 3.12845,
+    "weights": {
+      "pH": 0.368053,
+      "turbidity": 0.62569,
+      "tds": 0.006257
+    },
+    "components": {
+      "pH": 12.0,
+      "turbidity": 48.0,
+      "tds": 63.6
+    },
+    "temperatureExcluded": true
+  }
+}

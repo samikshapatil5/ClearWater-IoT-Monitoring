@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 440">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eff6f3"/><stop offset="1" stop-color="#d8ebe7"/></linearGradient></defs>
+<rect width="700" height="440" rx="26" fill="url(#bg)"/>
+<ellipse cx="350" cy="355" rx="235" ry="30" fill="#b6d2cd"/>
+<rect x="205" y="90" width="290" height="190" rx="22" fill="#153d39"/>
+<rect x="224" y="109" width="252" height="151" rx="14" fill="#edf5f2"/>
+<rect x="250" y="133" width="92" height="48" rx="8" fill="#dcece8"/>
+<text x="266" y="154" font-family="Arial" font-size="11" fill="#55736f">WQM NODE</text>
+<text x="266" y="171" font-family="Arial" font-size="15" font-weight="700" fill="#173b37">ESP32</text>
+<circle cx="452" cy="141" r="7" fill="#4ba872"/>
+<path d="M397 193 q18 -18 36 0 M390 204 q25 -26 50 0 M383 215 q32 -34 64 0" fill="none" stroke="#16756e" stroke-width="4" stroke-linecap="round"/>
+<rect x="270" y="203" width="170" height="32" rx="7" fill="#fff" stroke="#c9dfda"/>
+<text x="286" y="223" font-family="Arial" font-size="10" fill="#52706c">pH 7.18   TDS 318</text>
+<g stroke="#153d39" stroke-width="7" stroke-linecap="round">
+ <path d="M245 280 L180 348"/><path d="M455 280 L520 348"/>
+</g>
+<g fill="#f5faf8" stroke="#9fc5be" stroke-width="2">
+ <circle cx="166" cy="362" r="24"/><circle cx="534" cy="362" r="24"/>
+</g>
+<g fill="none" stroke="#16756e" stroke-width="3">
+ <path d="M154 358 C160 345 172 345 178 358"/><path d="M523 351 v22"/>
+</g>
+<text x="95" y="410" font-family="Arial" font-size="12" fill="#56736f">pH</text>
+<text x="500" y="410" font-family="Arial" font-size="12" fill="#56736f">Turbidity / TDS</text>
+</svg>

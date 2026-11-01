@@ -1,0 +1,68 @@
+{
+  "faqs": [
+    {
+      "question": "What parameters does the system monitor?",
+      "answer": "The system monitors pH, TDS, turbidity, and water temperature."
+    },
+    {
+      "question": "What does pH indicate?",
+      "answer": "pH indicates the acidity or alkalinity of water. A pH value of 7 is neutral, values below 7 are acidic, and values above 7 are alkaline."
+    },
+    {
+      "question": "What is TDS?",
+      "answer": "TDS stands for Total Dissolved Solids. It represents the amount of dissolved substances present in water and is measured in mg/L."
+    },
+    {
+      "question": "What is turbidity?",
+      "answer": "Turbidity indicates the cloudiness of water caused by suspended particles. It is measured in NTU."
+    },
+    {
+      "question": "Why is water temperature monitored?",
+      "answer": "Water temperature is monitored as a water-quality parameter and is also used as an input to the CNN-LSTM deep learning model. The project does not assign a specific drinking-water safety threshold to temperature."
+    },
+    {
+      "question": "What is the acceptable pH range?",
+      "answer": "The BIS IS 10500:2012 reference range for pH is 6.5 to 8.5."
+    },
+    {
+      "question": "What is the acceptable TDS limit?",
+      "answer": "The BIS IS 10500:2012 acceptable limit for TDS is 500 mg/L. A permissible limit of 2000 mg/L applies in the absence of an alternate source."
+    },
+    {
+      "question": "What is the acceptable turbidity limit?",
+      "answer": "The BIS IS 10500:2012 acceptable limit for turbidity is 1 NTU. A permissible limit of 5 NTU applies in the absence of an alternate source."
+    },
+    {
+      "question": "What does the CNN-LSTM model do?",
+      "answer": "The CNN-LSTM model analyzes the monitored water-quality data and classifies the water-quality status as Safe or Unsafe."
+    },
+    {
+      "question": "What is the role of the Agentic AI?",
+      "answer": "The Agentic AI uses sensor data, CNN-LSTM predictions, knowledge-base information, and rules to reason about the water-quality condition, make decisions, provide recommendations, and interact with the user through the chatbot."
+    },
+    {
+      "question": "Does the Agentic AI replace the CNN-LSTM model?",
+      "answer": "No. The CNN-LSTM performs water-quality prediction and classification, while the Agentic AI interprets the results, reasons about the situation, provides recommendations, and interacts with the user."
+    },
+    {
+      "question": "Can the system guarantee that water is safe to drink?",
+      "answer": "No. The system evaluates only the parameters monitored by this project. It should not claim complete drinking-water safety because complete assessment requires additional parameters and appropriate laboratory testing."
+    },
+    {
+      "question": "What should I do if the water is classified as Unsafe?",
+      "answer": "Avoid using the water for drinking until the cause is investigated and appropriate treatment or verification is performed."
+    },
+    {
+      "question": "Why can the system show a Warning status?",
+      "answer": "A Warning status can occur when a monitored parameter is above its acceptable reference limit but remains within its permissible limit, requiring attention or further assessment."
+    },
+    {
+      "question": "Can the chatbot explain the water-quality prediction?",
+      "answer": "Yes. The Agentic AI chatbot can use the sensor readings, CNN-LSTM prediction, knowledge base, and interpretation rules to provide an understandable explanation to the user."
+    },
+    {
+      "question": "Can users provide feedback to the system?",
+      "answer": "Yes. Users can provide feedback about the prediction, recommendation, or chatbot response. The feedback can be stored for analysis and future system improvement."
+    }
+  ]
+}

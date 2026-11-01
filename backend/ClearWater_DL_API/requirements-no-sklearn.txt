@@ -1,0 +1,18 @@
+# ============================================================
+# CLEARWATER DEEP LEARNING PROJECT
+# Python 3.11
+# ============================================================
+
+# Deep Learning
+tensorflow==2.22.0rc0
+
+# Data Processing
+numpy==2.4.6
+pandas==3.0.6
+
+# Machine Learning and Preprocessing
+joblib==1.6.0
+
+# REST API
+fastapi==0.143.0
+uvicorn==0.54.0

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<rect width="800" height="500" rx="28" fill="#e8f3f0"/>
+<circle cx="400" cy="235" r="145" fill="#fff" stroke="#c8dfda" stroke-width="3"/>
+<circle cx="400" cy="235" r="112" fill="none" stroke="#e0ece9" stroke-width="20"/>
+<path d="M400 123 A112 112 0 1 1 294 273" fill="none" stroke="#197b74" stroke-width="20" stroke-linecap="round"/>
+<text x="400" y="232" text-anchor="middle" font-family="Arial" font-size="68" font-weight="700" fill="#16302e">87</text>
+<text x="400" y="260" text-anchor="middle" font-family="Arial" font-size="13" fill="#6a7d79">WATER QUALITY INDEX</text>
+<g font-family="Arial">
+ <rect x="82" y="70" width="145" height="64" rx="10" fill="#fff" stroke="#c8dfda"/>
+ <text x="100" y="96" font-size="10" fill="#718481">pH</text><text x="100" y="118" font-size="20" font-weight="700" fill="#16302e">7.18</text>
+ <rect x="573" y="70" width="145" height="64" rx="10" fill="#fff" stroke="#c8dfda"/>
+ <text x="591" y="96" font-size="10" fill="#718481">TURBIDITY</text><text x="591" y="118" font-size="20" font-weight="700" fill="#16302e">2.4 NTU</text>
+ <rect x="82" y="345" width="145" height="64" rx="10" fill="#fff" stroke="#c8dfda"/>
+ <text x="100" y="371" font-size="10" fill="#718481">TDS</text><text x="100" y="393" font-size="20" font-weight="700" fill="#16302e">318</text>
+ <rect x="573" y="345" width="145" height="64" rx="10" fill="#fff" stroke="#c8dfda"/>
+ <text x="591" y="371" font-size="10" fill="#718481">TEMPERATURE</text><text x="591" y="393" font-size="20" font-weight="700" fill="#16302e">26.4°C</text>
+</g>
+</svg>

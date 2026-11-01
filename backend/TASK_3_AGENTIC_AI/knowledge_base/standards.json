@@ -1,0 +1,32 @@
+{
+  "standard": {
+    "name": "BIS IS 10500:2012",
+    "description": "Drinking Water - Specification"
+  },
+  "parameters": {
+    "pH": {
+      "unit": "pH",
+      "acceptable_min": 6.5,
+      "acceptable_max": 8.5,
+      "acceptable_range": "6.5 - 8.5"
+    },
+    "TDS": {
+      "unit": "mg/L",
+      "acceptable_max": 500,
+      "permissible_max": 2000,
+      "permissible_condition": "In the absence of an alternate source"
+    },
+    "turbidity": {
+      "unit": "NTU",
+      "acceptable_max": 1,
+      "permissible_max": 5,
+      "permissible_condition": "In the absence of an alternate source"
+    },
+    "temperature": {
+      "unit": "°C",
+      "threshold_available": false,
+      "usage": "Monitoring and deep learning model input"
+    }
+  },
+  "important_note": "The system evaluates only the parameters monitored by this project. It should not claim complete drinking-water safety based only on these four parameters."
+}

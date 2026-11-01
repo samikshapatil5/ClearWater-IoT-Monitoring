@@ -1,0 +1,45 @@
+{
+  "model": {
+    "name": "CNN-LSTM",
+    "full_name": "Convolutional Neural Network - Long Short-Term Memory",
+    "type": "Deep Learning Model",
+    "purpose": "Classifies monitored water-quality data as Safe or Unsafe.",
+    
+    "input_parameters": [
+      "pH",
+      "TDS",
+      "turbidity",
+      "temperature"
+    ],
+
+    "architecture": {
+      "CNN": {
+        "role": "Extracts important local features and patterns from water-quality input sequences."
+      },
+      "LSTM": {
+        "role": "Learns temporal patterns and relationships between observations over time."
+      }
+    },
+
+    "output": {
+      "classes": [
+        "Safe",
+        "Unsafe"
+      ],
+      "description": "The model predicts the water-quality class based on the monitored sensor parameters."
+    },
+
+    "agent_usage": {
+      "purpose": "The Agentic AI uses the CNN-LSTM prediction as one of the inputs for reasoning and decision-making.",
+      "role_of_model": "Prediction and classification",
+      "role_of_agent": "Reasoning, interpretation, decision-making, recommendation, and user interaction"
+    },
+
+    "important_rules": [
+      "The Agent should not replace the CNN-LSTM prediction.",
+      "The Agent should use the model prediction together with sensor values and knowledge-base rules.",
+      "The system should not claim complete drinking-water safety based only on the four monitored parameters.",
+      "Model predictions should be presented as predictions of the trained system."
+    ]
+  }
+}

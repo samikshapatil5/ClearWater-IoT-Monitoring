@@ -1,0 +1,22 @@
+# ============================================================
+# CLEARWATER DEEP LEARNING PROJECT
+# Python 3.11
+# ============================================================
+
+# Deep Learning
+tensorflow==2.22.0rc0
+
+# Data Processing
+numpy==2.4.6
+pandas==3.0.6
+
+# Machine Learning and Preprocessing
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# REST API
+fastapi==0.143.0
+uvicorn==0.54.0
+# Firebase Realtime Database integration for /predict-from-firebase
+firebase-admin>=6.5.0
+python-dotenv>=1.0.0

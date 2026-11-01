@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400">
+<rect width="1000" height="400" rx="24" fill="#f1f6f4"/>
+<g font-family="Arial" text-anchor="middle">
+<g fill="#fff" stroke="#c7ddd8" stroke-width="2">
+ <rect x="30" y="130" width="120" height="100" rx="14"/><rect x="185" y="130" width="120" height="100" rx="14"/>
+ <rect x="340" y="130" width="120" height="100" rx="14"/><rect x="495" y="130" width="120" height="100" rx="14"/>
+ <rect x="650" y="130" width="120" height="100" rx="14"/><rect x="805" y="130" width="150" height="100" rx="14"/>
+</g>
+<g fill="#15756e" font-size="11" font-weight="700">
+ <text x="90" y="164">01 · SENSING</text><text x="245" y="164">02 · MQTT</text><text x="400" y="164">03 · PROCESS</text>
+ <text x="555" y="164">04 · CNN–LSTM</text><text x="710" y="164">05 · AGENTIC AI</text><text x="880" y="164">06 · APPLICATION</text>
+</g>
+<g fill="#5f7470" font-size="10">
+ <text x="90" y="190">pH • TDS</text><text x="90" y="207">Turbidity • Temp</text>
+ <text x="245" y="190">Wi-Fi</text><text x="245" y="207">Cloud transfer</text>
+ <text x="400" y="190">Filter • scale</text><text x="400" y="207">Missing values</text>
+ <text x="555" y="190">Temporal patterns</text><text x="555" y="207">Safe / contaminated</text>
+ <text x="710" y="190">Explain</text><text x="710" y="207">Recommend</text>
+ <text x="880" y="190">Dashboard</text><text x="880" y="207">Alerts • feedback</text>
+</g>
+</g>
+<g stroke="#7ea7a1" stroke-width="2.5" fill="none" stroke-linecap="round">
+ <path d="M150 180 H185"/><path d="M305 180 H340"/><path d="M460 180 H495"/><path d="M615 180 H650"/><path d="M770 180 H805"/>
+</g>
+<g fill="#7ea7a1">
+ <path d="M180 174 l9 6 -9 6z"/><path d="M335 174 l9 6 -9 6z"/><path d="M490 174 l9 6 -9 6z"/><path d="M645 174 l9 6 -9 6z"/><path d="M800 174 l9 6 -9 6z"/>
+</g>
+<text x="500" y="285" text-anchor="middle" font-family="Arial" font-size="12" fill="#55736e">Real-time data → prediction → explanation → action</text>
+</svg>

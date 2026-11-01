@@ -1,0 +1,252 @@
+[
+  {
+    "alert_id": "cw-20261012T101857341025Z-1",
+    "timestamp": "2026-10-12T10:18:57.341005+00:00",
+    "severity": "warning",
+    "code": "OVERALL_WARNING",
+    "message": "The agent decision is Warning. Review flagged parameters and the CMI/WQI result.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261012T101857341064Z-2",
+    "timestamp": "2026-10-12T10:18:57.341005+00:00",
+    "severity": "warning",
+    "code": "TURBIDITY_OVER_OBJECTIVE",
+    "message": "Turbidity is 1.3 NTU, above this project's objective of 1.0 NTU. Verify the sensor and investigate the source.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261012T101857341080Z-3",
+    "timestamp": "2026-10-12T10:18:57.341005+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is FAIR (score 73.76); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261012T165225419894Z-3",
+    "timestamp": "2026-10-12T16:52:25.419759+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is FAIR (score 76.37); review contributing parameters.",
+    "acknowledged": false,
+    "source": "local_json_development",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261014T095818996997Z-1",
+    "timestamp": "2026-10-14T09:58:18.996964+00:00",
+    "severity": "critical",
+    "code": "OVERALL_UNSAFE",
+    "message": "The agent decision is Unsafe. Follow safety guidance and arrange appropriate water-quality testing.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261014T095818997083Z-3",
+    "timestamp": "2026-10-14T09:58:18.996964+00:00",
+    "severity": "critical",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is POOR (score 19.51); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261016T164157571131Z-3",
+    "timestamp": "2026-10-16T16:41:57.571069+00:00",
+    "severity": "critical",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is POOR (score 24.08); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092352672083Z-3",
+    "timestamp": "2026-10-17T09:23:52.671920+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 49.09); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092407631200Z-3",
+    "timestamp": "2026-10-17T09:24:07.631111+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 50.33); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092422616803Z-3",
+    "timestamp": "2026-10-17T09:24:22.616729+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 49.11); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092437632917Z-3",
+    "timestamp": "2026-10-17T09:24:37.632816+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.84); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092452661538Z-3",
+    "timestamp": "2026-10-17T09:24:52.661497+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.83); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092507821947Z-3",
+    "timestamp": "2026-10-17T09:25:07.821851+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.82); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092522640032Z-3",
+    "timestamp": "2026-10-17T09:25:22.639950+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.81); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092537656564Z-3",
+    "timestamp": "2026-10-17T09:25:37.656470+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.8); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092552686957Z-3",
+    "timestamp": "2026-10-17T09:25:52.686910+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.79); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092607578264Z-3",
+    "timestamp": "2026-10-17T09:26:07.578206+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 47.75); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092622594141Z-3",
+    "timestamp": "2026-10-17T09:26:22.594097+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 46.41); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092637601638Z-3",
+    "timestamp": "2026-10-17T09:26:37.601568+00:00",
+    "severity": "warning",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is MARGINAL (score 45.04); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092652674489Z-3",
+    "timestamp": "2026-10-17T09:26:52.674417+00:00",
+    "severity": "critical",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is POOR (score 45.0); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092708192539Z-3",
+    "timestamp": "2026-10-17T09:27:08.192473+00:00",
+    "severity": "critical",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is POOR (score 44.97); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261017T092722546998Z-3",
+    "timestamp": "2026-10-17T09:27:22.546950+00:00",
+    "severity": "critical",
+    "code": "CMI_WQI_REVIEW",
+    "message": "Project CMI/WQI category is POOR (score 44.95); review contributing parameters.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261018T140156280291Z-1",
+    "timestamp": "2026-10-18T14:01:56.280277+00:00",
+    "severity": "critical",
+    "code": "PH_LOW",
+    "message": "pH is 6.31501, below the project reference minimum of 6.5.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261018T140156280315Z-2",
+    "timestamp": "2026-10-18T14:01:56.280277+00:00",
+    "severity": "info",
+    "code": "TDS_NORMAL",
+    "message": "TDS is 276.848 ppm, at or below the project reference limit of 500 ppm.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  },
+  {
+    "alert_id": "cw-20261018T140156280324Z-3",
+    "timestamp": "2026-10-18T14:01:56.280277+00:00",
+    "severity": "warning",
+    "code": "TURBIDITY_HIGH",
+    "message": "Turbidity is 1.3 NTU, above the 1 NTU objective. Verify the sensor and investigate.",
+    "acknowledged": false,
+    "source": "firebase",
+    "test_data": false
+  }
+]

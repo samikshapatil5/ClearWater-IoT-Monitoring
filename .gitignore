@@ -1,0 +1,31 @@
+# Frontend dependencies and build files
+node_modules/
+dist/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Firebase credentials and private keys
+serviceAccountKey.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
+*.pem
+*.key
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Agentic AI backend secrets
+backend/TASK_3_AGENTIC_AI/.env
+backend/TASK_3_AGENTIC_AI/serviceAccountKey.json
+
+# Logs and temporary files
+*.log
+.DS_Store
+# Temporary backend archive
+backend.zip

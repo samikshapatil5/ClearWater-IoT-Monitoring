@@ -1,0 +1,107 @@
+{
+  "rules": {
+    "pH": {
+      "rule_type": "range_based",
+      "conditions": [
+        {
+          "condition": "value < 6.5",
+          "status": "Unsafe",
+          "meaning": "Water is more acidic than the acceptable pH range."
+        },
+        {
+          "condition": "6.5 <= value <= 8.5",
+          "status": "Safe",
+          "meaning": "pH is within the acceptable BIS reference range."
+        },
+        {
+          "condition": "value > 8.5",
+          "status": "Unsafe",
+          "meaning": "Water is more alkaline than the acceptable pH range."
+        }
+      ]
+    },
+    "TDS": {
+      "rule_type": "limit_based",
+      "conditions": [
+        {
+          "condition": "value <= 500",
+          "status": "Safe",
+          "meaning": "TDS is within the acceptable BIS reference limit."
+        },
+        {
+          "condition": "500 < value <= 2000",
+          "status": "Warning",
+          "meaning": "TDS is above the acceptable limit but within the permissible limit when no alternate source is available."
+        },
+        {
+          "condition": "value > 2000",
+          "status": "Unsafe",
+          "meaning": "TDS exceeds the BIS permissible limit."
+        }
+      ]
+    },
+    "turbidity": {
+      "rule_type": "limit_based",
+      "conditions": [
+        {
+          "condition": "value <= 1",
+          "status": "Safe",
+          "meaning": "Turbidity is within the acceptable BIS reference limit."
+        },
+        {
+          "condition": "1 < value <= 5",
+          "status": "Warning",
+          "meaning": "Turbidity is above the acceptable limit but within the permissible limit when no alternate source is available."
+        },
+        {
+          "condition": "value > 5",
+          "status": "Unsafe",
+          "meaning": "Turbidity exceeds the BIS permissible limit."
+        }
+      ]
+    },
+    "temperature": {
+      "rule_type": "monitoring_only",
+      "conditions": [
+        {
+          "condition": "all_values",
+          "status": "Monitor",
+          "meaning": "Temperature is monitored and used as an input to the deep learning model. No project-specific drinking-water safety threshold is assigned."
+        }
+      ]
+    }
+  },
+  "overall_interpretation": {
+    "rule": "The overall monitored water-quality status should consider all available parameter results and the CNN-LSTM model prediction.",
+    "safe_condition": "All monitored parameters are within their acceptable reference ranges and the CNN-LSTM model predicts Safe.",
+    "unsafe_condition": "One or more monitored parameters exceed the applicable permissible limit or the CNN-LSTM model predicts Unsafe.",
+    "warning_condition": "A parameter is above its acceptable limit but remains within its permissible limit, requiring attention.",
+    "important_note": "The system evaluates only the parameters monitored by this project and should not claim complete drinking-water safety based only on pH, TDS, turbidity, and temperature."
+  },
+  "decision_policy": {
+    "unsafe_parameter_statuses": [
+      "Unsafe"
+    ],
+    "warning_parameter_statuses": [
+      "Warning"
+    ],
+    "unsafe_model_predictions": [
+      "Unsafe"
+    ],
+    "unavailable_model_predictions": [
+      "Unavailable"
+    ],
+    "status_order": [
+      "Unsafe",
+      "Insufficient data",
+      "Warning",
+      "Safe"
+    ],
+    "rules": {
+      "unsafe": "Return Unsafe if any monitored parameter status is listed in unsafe_parameter_statuses or the model prediction is listed in unsafe_model_predictions.",
+      "insufficient_data": "If the model prediction is unavailable and no unsafe parameter condition has already been detected, return Insufficient data.",
+      "warning": "If any monitored parameter status is listed in warning_parameter_statuses, return Warning.",
+      "safe": "Return Safe only when no unsafe or warning parameter status exists and a valid Safe model prediction is available."
+    }
+  }
+}

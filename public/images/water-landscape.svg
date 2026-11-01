@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#dfeee9"/><stop offset="1" stop-color="#f6faf8"/></linearGradient>
+ <linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6da9a2"/><stop offset="1" stop-color="#194f4b"/></linearGradient>
+</defs>
+<rect width="900" height="560" rx="28" fill="url(#sky)"/>
+<path d="M0 285 C130 230 230 270 330 248 C455 220 560 275 680 242 C770 218 835 240 900 220 V560 H0Z" fill="#91aa91"/>
+<path d="M0 325 C130 300 230 318 350 296 C510 266 640 318 760 284 C815 269 858 270 900 278 V560 H0Z" fill="#5f7e69"/>
+<path d="M0 370 C170 330 260 395 400 360 C550 322 700 370 900 330 V560 H0Z" fill="url(#water)"/>
+<g fill="none" stroke="#b7dad3" stroke-linecap="round" opacity=".7">
+ <path d="M55 416 C170 392 270 438 390 411 S620 398 835 422" stroke-width="3"/>
+ <path d="M120 456 C245 433 330 471 470 447 S700 440 850 460" stroke-width="2"/>
+ <path d="M30 493 C160 472 280 510 420 483 S690 478 880 500" stroke-width="2"/>
+</g>
+<g fill="#315d47">
+ <path d="M112 302 l14 -72 13 72z"/><path d="M137 302 l18 -91 16 91z"/><path d="M160 304 l13 -64 12 64z"/>
+ <path d="M740 294 l16 -83 15 83z"/><path d="M770 292 l12 -64 12 64z"/><path d="M792 293 l18 -96 17 96z"/>
+</g>
+<g transform="translate(610 365)">
+ <rect x="0" y="0" width="118" height="72" rx="9" fill="#eef5f2" opacity=".96"/>
+ <rect x="8" y="8" width="102" height="56" rx="6" fill="#173d39"/>
+ <circle cx="22" cy="21" r="4" fill="#5fbd82"/>
+ <text x="35" y="25" font-family="Arial" font-size="9" fill="#a9c6c0">WQM-01</text>
+ <text x="14" y="43" font-family="Arial" font-size="16" font-weight="700" fill="#fff">87</text>
+ <text x="39" y="43" font-family="Arial" font-size="8" fill="#a9c6c0">QUALITY</text>
+ <path d="M67 49 C77 38 82 53 90 44 S102 38 108 31" fill="none" stroke="#72c9bd" stroke-width="2"/>
+</g>
+</svg>
